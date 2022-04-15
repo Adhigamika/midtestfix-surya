@@ -20,7 +20,6 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', function () {
     return view('users.login');
 });
-// Auth::routes(['verify'=>true]);
 
 
 Route::prefix('user')->name('user.')->group(function(){
