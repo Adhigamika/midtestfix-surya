@@ -46,7 +46,6 @@ class Login extends Controller
             return redirect()->back()->with('error','Register Failed');
         }
 
-        // event(new Registered($data));
     }
 
     public function proses_login(request $request){
